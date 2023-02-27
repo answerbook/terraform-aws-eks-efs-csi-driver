@@ -81,3 +81,7 @@ variable "settings" {
   default     = {}
   description = "Additional settings which will be passed to the Helm chart values, see https://github.com/kubernetes-sigs/aws-efs-csi-driver."
 }
+
+variable "cluster_ca_cert" {}
+variable "cluster_name" {}
+variable "cluster_token" {}
