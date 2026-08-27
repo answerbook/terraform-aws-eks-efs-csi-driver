@@ -74,7 +74,7 @@ Encryption in transit is enabled by default in the master branch version of the 
 | helm\_chart\_name | Amazon EFS CSI Driver chart name. | `string` | `"aws-efs-csi-driver"` | no |
 | helm\_chart\_release\_name | Amazon EFS CSI Driver release name. | `string` | `"aws-efs-csi-driver"` | no |
 | helm\_chart\_repo | Amazon EFS CSI Driver repository name. | `string` | `"https://kubernetes-sigs.github.io/aws-efs-csi-driver/"` | no |
-| helm\_chart\_version | Amazon EFS CSI Driver chart version. | `string` | `"2.2.0"` | no |
+| helm\_chart\_version | Amazon EFS CSI Driver chart version. | `string` | `"4.4.2"` | no |
 | mod\_dependency | Dependence variable binds all AWS resources allocated by this module, dependent modules reference this variable. | `any` | `null` | no |
 | namespace | Kubernetes namespace to deploy EKS Spot termination handler Helm chart. | `string` | `"kube-system"` | no |
 | service\_account\_name | Amazon EFS CSI Driver service account name. | `string` | `"aws-efs-csi-driver"` | no |
